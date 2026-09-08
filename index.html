@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RunRush - Endless Runner Game</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game-container">
+
+        <div class="top-bar">
+            <div class="score-box">
+                <span>Score</span>
+                <strong id="score">0</strong>
+            </div>
+
+            <div class="coin-box">
+                <span>Coins</span>
+                <strong id="coins">0</strong>
+            </div>
+
+            <div class="speed-box">
+                <span>Speed</span>
+                <strong id="speed">1x</strong>
+            </div>
+        </div>
+
+        <div id="game">
+
+            <div class="sky"></div>
+
+            <div class="city">
+                <div class="building building1"></div>
+                <div class="building building2"></div>
+                <div class="building building3"></div>
+                <div class="building building4"></div>
+                <div class="building building5"></div>
+            </div>
+
+            <div class="road">
+
+                <div class="lane-line line1"></div>
+                <div class="lane-line line2"></div>
+
+                <div id="player">
+                    🏃
+                </div>
+
+                <div id="objects"></div>
+
+            </div>
+
+            <div id="start-screen">
+
+                <h1>🏃 RunRush</h1>
+
+                <p>
+                    Endless Runner Game
+                </p>
+
+                <p class="instructions">
+                    Move left/right, collect coins and avoid obstacles!
+                </p>
+
+                <button id="start-btn">
+                    ▶ Start Game
+                </button>
+
+            </div>
+
+            <div id="game-over-screen">
+
+                <h1>💥 Game Over</h1>
+
+                <p>
+                    Your Score
+                </p>
+
+                <strong id="final-score">
+                    0
+                </strong>
+
+                <p>
+                    Coins: <span id="final-coins">0</span>
+                </p>
+
+                <button id="restart-btn">
+                    🔄 Play Again
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="controls">
+
+            <button id="left-btn">
+                ⬅️
+            </button>
+
+            <button id="jump-btn">
+                ⬆️
+            </button>
+
+            <button id="right-btn">
+                ➡️
+            </button>
+
+        </div>
+
+        <p class="keyboard-info">
+            Keyboard: ← → to move | ↑ / Space to jump
+        </p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
