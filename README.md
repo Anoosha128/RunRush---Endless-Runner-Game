@@ -131,7 +131,6 @@ Future versions could include:
 * 🎵 Background music
 * 🔊 Sound effects
 * ⭐ Power-ups
-* 🛡️ Shields
 * 🧲 Coin magnet
 * 🏆 High-score storage
 * 🌎 Different environments
